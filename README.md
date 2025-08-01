@@ -15,7 +15,7 @@ print(reverseText)
 ```
 ## Exercise 2
 ### **Reverse string** using a for loop and negative indexing
-
+- reverse a string using a for loop and negative indexing.
 ```Python
 text = "Hello Baby"
 
@@ -27,6 +27,7 @@ print(reverseText)
 ```
 ## Exercise 3
 ### **Count odd munbers**
+- checks each element in the list arr and collects the indices of all odd numbers.
 ```Python
 arr = [5, 7, 8, 4, 3]
 indexOfOdd = []
@@ -39,6 +40,7 @@ print(indexOfOdd)
 ```
 ## Exercise 4
 ### **Find Average** of number in list
+- calculates the average of the numbers in the list arr by adding them up and dividing the total by how many items are in the list
 ```Python
 arr = [5, 7, 8, 4, 3]
 average = 0
@@ -52,6 +54,7 @@ print(average)
 ```
 ## Exercise 5
 ### **Access** Array Dictionary
+- loops through a list of dictionaries and prints the value associated with the 'name' key for each entry
 ```Python
 arr = [
     {'name': 'bopha', 'age': 18},
@@ -64,6 +67,7 @@ for dics in arr:
 ```
 ## Exercise 6
 ### **Sum** all numbers
+- calculates the total sum of all numbers in the array arr
 ```Python
 arr = [5, 7, 8, 4, 3]
 sum = 0
@@ -75,6 +79,7 @@ print(sum)
 ```
 ## Exercise 7
 ### **Count** Even numbers
+- loops through the list arr and prints the values that are even
 ```Python
 arr = [5, 7, 8, 4, 3]
 for value in arr:
@@ -85,6 +90,7 @@ for value in arr:
 ```
 ## Exercise 8
 ### **Find** Minimum number in the list
+- loop helps you find the smallest number in a list by comparing each element to a reference minimum
 ```Python
 # @Minimum number
 arr = [10, 40, 20, 4, 3]
@@ -98,6 +104,7 @@ print(min)
 ```
 ## Exercise 9
 ### **Move** one step to right
+- first 1 in the array and moves it one position to the right—just once
 ```Python
 arr = [0, 0, 1, 0, 0]
 isFound = False
@@ -112,6 +119,7 @@ print(arr)
 ```
 ## Exercise 10
 ### **Move** one step to left
+- for the first 1 in the array and moves it one step to the left.
 ```Python
 arr = [0, 0, 1, 0, 0]
 isFound = False
@@ -127,6 +135,7 @@ print(arr)
 
 ## Exercise 11
 ### **Find** Maximum number in the list
+- loop scans through the array and plucks out the largest number.
 ```Python
 arr = [10, 40, 20, 4, 3]
 max = arr[0]
@@ -140,6 +149,7 @@ print(max)
 
 ## Exercise 12
 ### **Sum value** in row of Array 2D
+- loops through a 2D array and computes the sum of each individual row, storing each result in the arr list
 ```Python
 arr2D = [
     [1, 2, 3],
